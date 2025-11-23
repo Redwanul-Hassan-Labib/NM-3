@@ -15,7 +15,6 @@ console.log("os homedirctory:", os.homedir())
 console.log("os tmpdir:", os.tmpdir())
 console.log("os version:", os.version())
 console.log("os type:", os.type())
-// console.log("os userInfo:", os.userInfo())
 // console.log("os cpus:", os.cpus())
 console.log("os getPriority:", os.getPriority())
 console.log("os loadavg:", os.loadavg())
@@ -44,3 +43,16 @@ console.log("Cpus model:", CPUs[0].model)
 console.log("Cpus core:", CPUs.length);
 console.log("cpu speed:" , CPUs[0].speed)
 console.log("cpu Time:" , CPUs[0].times)
+
+
+
+console.log("os file dekhar jonno \n")
+
+const userInfo = os.userInfo();
+
+
+console.log("username:", userInfo.username)
+console.log("shell:", userInfo.shell)
+console.log("gid:", userInfo.gid)
+console.log("uid:", userInfo.uid)
+console.log("homedir:", userInfo.homedir)
